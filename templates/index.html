@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ELITE Progruz</title>
+    <meta http-equiv="refresh" content="60">
+</head>
+<body style="background:#111;color:white;font-family:Arial;padding:20px;">
+
+<h1>🔥 ELITE SIGNALS</h1>
+
+{% for s in signals %}
+<div style="margin-bottom:20px;padding:10px;border:1px solid #333;">
+    <b>{{ s.match_name }}</b><br>
+    Сторона: {{ s.outcome }}<br>
+    {{ s.old_price }} → {{ s.new_price }}<br>
+    Падіння: -{{ s.drop_pct }}%<br>
+    Score: {{ s.score }}/100
+</div>
+{% endfor %}
+
+</body>
+</html>
