@@ -1,0 +1,29 @@
+body {
+    background: #0f1115;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
+}
+
+h1 {
+    color: #00ff99;
+}
+
+.card {
+    background: #1a1f2b;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+
+.drop {
+    color: #00ff99;
+    font-weight: bold;
+}
+
+.score {
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: #222;
+}
